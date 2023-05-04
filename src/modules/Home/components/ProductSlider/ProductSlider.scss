@@ -1,0 +1,36 @@
+@import "../../../../styles/color";
+.slider-container {
+  position: relative;
+  .img-container {
+    max-height: 800px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .slick-next {
+    right: 20px;
+  }
+  .slick-prev {
+    left: 20px;
+  }
+
+  .slick-arrow {
+    z-index: 10;
+  }
+
+  .description {
+    position: absolute;
+
+    top: 30%;
+    left: 10%;
+    width: 40%;
+
+    span {
+      color: $white-f3;
+      font-size: 3rem;
+    }
+  }
+}

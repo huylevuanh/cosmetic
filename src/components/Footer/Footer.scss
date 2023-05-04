@@ -1,0 +1,50 @@
+@import "../../styles/_color.scss";
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 200px;
+  background-color: $white-fa;
+
+  .first-block,
+  .second-block,
+  .third-block,
+  .forth-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .first-block {
+    h3 {
+      font-size: 2rem;
+      margin: unset;
+    }
+  }
+
+  .second-block,
+  .third-block,
+  .forth-block {
+    h6 {
+      font-size: 1.3rem;
+      margin: unset;
+    }
+  }
+}
+
+.contact-info {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 20px 200px;
+
+  background-color: $white-f3;
+
+  .social-link {
+    gap: 20px;
+    span {
+      font-family: "Architects Daughter", cursive;
+      cursor: pointer;
+    }
+  }
+}
