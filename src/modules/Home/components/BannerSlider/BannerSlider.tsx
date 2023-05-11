@@ -1,8 +1,8 @@
 import Slider from "react-slick";
-import "./ProductSlider.scss";
+import "./BannerSlider.scss";
 import { ProductSliderImage } from "../../../../constants";
 import Button from "../../../../components/Button/Button";
-const ProductSlider = () => {
+const BannerSlider = () => {
   const settings = {
     className: "center",
     fade: true,
@@ -36,4 +36,4 @@ const ProductSlider = () => {
   );
 };
 
-export default ProductSlider;
+export default BannerSlider;
